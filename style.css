@@ -1,10 +1,72 @@
-/* This file is all yours.
+body {
+  cursor: none;
+  background-image: url("download.jpg");
+}
+@keyframes button {
+  from {
+    top: 200px;
+  }
+  to {
+    top: 200px;
+  }
+}
+.opera p {
+  font-size: 24px;
+  color: #893030;
+  transform: rotate(-58deg);
+}
+.rock p {
+  font-size: 24px;
+  color: #893030;
+  transform: rotate(-18deg);
+}
+li {
+  font-size: 80px;
+  color: #56f500;
+  transform: rotate(18deg);
+  background-color: aqua;
+}
+a {
+  cursor: none;
+}
+h2 {
+  font-size: 8px;
+  color: #f50000;
+  transform: rotate(180deg);
+}
+h1 {
+  color: #ff0000;
+  transform: rotate(180deg);
+}
+p * {
+  margin: 10px 80px;
+  color: #ff0000;
+  transform: rotate(180deg);
+}
+p {
+  font-kerning: 100px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 1008px;
+  margin: 10px 80px;
+  color: #f3e7e713;
+  transform: rotate(53deg);
+}
+/*p{
+  font-size: 8px;
+  margin: 10px 80px;
+  color: #ff0000;
+  transform: rotate(180deg);
+}*/
 
-   The HTML is done. Your job is to make it as ugly as possible.
-   Start by selecting something, then commit a crime against it:
-
-   .opera {
-     background: hotpink;
-   }
-
-   See css-properties.md for a menu of possible crimes. */
+button {
+  background-color: #5e2b2b;
+  border: none;
+  color: rgba(128, 255, 2, 0.052);
+  padding: 155px 328px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: none;
+}
